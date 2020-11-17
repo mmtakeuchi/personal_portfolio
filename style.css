@@ -7,6 +7,7 @@ a {
     text-decoration: none;
 }
 
+
 #vid-background {
     position: absolute;
     right: 0; 
@@ -36,8 +37,6 @@ img {
     align-items: center;
     width: 100%;
     height: 100vh;
-    /* background-color: #000;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); */
     background-image: url('assets/video/Abstract-Black.mp4');
 }
 
@@ -46,38 +45,6 @@ img {
     font-weight: 200;
     font-style: italic;
     color: whitesmoke;
-}
-
-/* The navigation bar */
-#navbar {
-    display: flex;
-    justify-content: flex-end;
-    position: fixed; /* Set the navbar to fixed position */
-    background-color: #333;
-    top: 0; 
-    width: 100%;
-}
-
-#navbar ul {
-    display: flex;
-    margin-right: 2rem;
-    list-style: none;
-}
-  
-/* Links inside the navbar */
-#navbar a {
-    float: left;
-    display: flex;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change background on mouse-over */
-#navbar a:hover {
-    background: #ddd;
-    color: black;
 }
 
 /* Contact section */
@@ -96,8 +63,8 @@ img {
 /* Project Section */
 #projects {
     text-align: center;
-    padding: 3rem 2rem;
-    margin: 5px
+    padding: 5rem 2rem;
+    margin-top: 5px;
 }
 
 .projects-grid {
@@ -143,7 +110,7 @@ footer {
 }
 
 footer a {
-    /* float: right; */
+    float: right;
     display: flex;
     justify-content: flex-end;
     text-align: center;
