@@ -10,16 +10,18 @@
 </head>
 <body>
 
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-danger" href="#">Michael Takeuchi</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link text-light" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#projects">Projects</a></li>                
+            <li class="nav-item"><a class="nav-link text-light" href="resume.html" target="_blank">Resume</a></li>                
+        </ul>
+    </nav>
+
     <div class="container">
-        <!-- NAVBAR -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand text-danger" href="#">Michael Takeuchi</a>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link text-light" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="#projects">Projects</a></li>
-            </ul>
-        </nav>
 
         <!-- HOME -->
         <header id="home">
@@ -38,7 +40,15 @@
             <div id="details">
                 <h1>Michael Takeuchi</h1>
                 <h3>Location: <span>Phoenix, AZ</span></h3>
-                <h3>Email: <a href="mailto:mikemtaki@gmail.com">mikemtaki@gmail.com</a></h3>
+                <h3><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                  </svg> <a href="mailto:mikemtaki@gmail.com">mikemtaki@gmail.com</a></h3>
+
+                  <h3><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 0h5.5v1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h1V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+                    <path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 0 1 9.5 3z"/>
+                    <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                  </svg>  <a href="resume.html" target="_blank">Resume</a></h3>
             </div>
             
         </section>
@@ -65,23 +75,34 @@
                 </div>
             </div>
             
-            <a class="float-right" href="#home"><i class="fa fa-chevron-circle-up fa-3x text-dark"></i></a>
         </section>
+        
+        <!-- RESUME -->
+        <section id="resume">
+            <h2>Resume</h2>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vQZAQKovpodgTXV9WjLC3F0_eDs77fCSx9Tf8m0O4LeiSw5SQkAKj4sdGAAv4jGtqU9cV5-oeur6Szt/pub?embedded=true" title="Resume"></iframe>
+        </section>
+        
+        <div>
+            <a class="d-flex ml-auto" href="#"><i class="fa fa-chevron-circle-up fa-3x text-dark"></i></a>
+        </div>
     </div>
         
         <!-- FOOTER -->
-        <footer class="bg-dark">
-            <div class="d-flex p-2 bd-highlight">
-                <span class="copy-name nav align-items-center text-light">© 2020 Michael Takeuchi</span>
-                <ul class="social-links nav ml-auto align-items-center">
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/mmtakeuchi" target="_blank"><i class="fa fa-github text-light"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/michaeltakeuchi/" target="_blank"><i class="fa fa-linkedin text-light"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#home"><i class="fa fa-chevron-up text-light"></i></a></li>
-                </ul>
-            </div>
-        </footer>
+        <div class="footer">
+            <footer class="bg-dark">
+                <div class="d-flex p-2 bd-highlight">
+                    <span class="copy-name nav align-items-center text-light">© 2020 Michael Takeuchi</span>
+                    <ul class="social-links nav ml-auto align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/mmtakeuchi" target="_blank"><i class="fa fa-github text-light"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/michaeltakeuchi/" target="_blank"><i class="fa fa-linkedin text-light"></i></a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-chevron-up text-light"></i></a></li> -->
+                    </ul>
+                </div>
+            </footer>
+        </div>
         
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
