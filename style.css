@@ -8,12 +8,12 @@ a {
 }
 
 .up-arrow {
-    cursor: pointer;
-    margin: 1px auto;
-    justify-content: center;
-    display: block;
-    transition: background 0.5s;
-    text-align: center;
+    /* cursor: pointer; */
+    margin: 2px auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* transition: background 0.5s; */
+    /* text-align: center; */
 }
 
 #vid-background {
@@ -25,11 +25,6 @@ a {
     width: auto; 
     height: auto;
     z-index: -100;
-}
-
-img {
-    display: block;
-    width: 100%;
 }
 
 #name {
@@ -69,7 +64,7 @@ img {
 }
 
 /* Project Section */
-#projects {
+/* #projects {
     text-align: center;
     padding: 5rem 2rem;
     margin-top: 5px;
@@ -88,11 +83,11 @@ img {
 .project-title {
     color: black;
 }
+*/
 
 .project-pic {
     height: calc(100% - 6.8rem);
     width: 100%;
-    object-fit: cover;
 }
 
 #resume {
@@ -112,12 +107,5 @@ img {
     height: 100vh;
     flex-direction: column;
     justify-content: center;
-} */
-
-/* .btn-circle {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 0.9rem;
 } */
 
