@@ -14,6 +14,12 @@ a {
     padding-bottom: 10px;
 } */
 
+.self-img {
+    height: 220px;
+    width: 210px;
+    border-radius: 50%;
+}
+
 .up-arrow {
     margin: 2px auto;
 }
